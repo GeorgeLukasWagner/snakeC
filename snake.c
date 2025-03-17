@@ -142,6 +142,7 @@ void	redraw(Info *info) {
 	}
 	mvprintw(info->food.y, info->food.x, "x");
 	mvprintw(22, 0, "Score: %d", info->score);
+	mvprintw(24, 0, "Wagnersnake");
 	print_border();
 	refresh();
 }
